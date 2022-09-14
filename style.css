@@ -554,9 +554,7 @@ footer {
     margin-bottom: 100px;
     margin-left: 300px;
   }
-  #about-paragraph {
-    display: flex;
-    flex-direction: column;
+  .about-paragraph {
     width: 400px;
     margin-right: 200px;
   }
