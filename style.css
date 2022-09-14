@@ -5,6 +5,9 @@
   padding: 0;
   background-color: rgb(33, 33, 33);
 }
+html {
+  scroll-behavior: smooth;
+}
 body {
   display: block;
 }
@@ -29,6 +32,15 @@ h1 {
 }
 #hub-animate-2 {
   animation: fadeInUp 1s ease 1s forwards;
+}
+.header.sticky {
+  position: fixed;
+  top: 0;
+  background-color: rgb(33, 33, 33);
+  border-bottom: 3px solid rgb(199, 36, 177);
+  width: 100%;
+  z-index: 200;
+  box-sizing: border-box;
 }
 
 .resume {
