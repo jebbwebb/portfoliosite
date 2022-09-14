@@ -1,6 +1,8 @@
 const faders = document.querySelectorAll('.about-animate');
 const sliders = document.querySelectorAll('.from-animate');
 const test = document.querySelector('.btn-background-circle');
+const hamburger = document.querySelector('.hamburger');
+const navMenu = document.querySelector('.nav-container');
 
 window.onbeforeunload = function () {
   window.scrollTo(0, 0);
@@ -30,4 +32,9 @@ faders.forEach((fader) => {
 
 sliders.forEach((slider) => {
   appearOnScroll.observe(slider);
+});
+
+hamburger.addEventListener('click', () => {
+  hamburger.classList.toggle('active');
+  navMenu.classList.toggle('active');
 });
