@@ -569,15 +569,15 @@ footer {
     z-index: 100;
     background-color: black;
   }
+  .social-container {
+    display: none;
+  }
 }
 
 @media all and (max-width: 1022px) {
   .project-image {
     display: none;
   }
-}
-.social-container {
-  display: none;
 }
 
 @media all and (max-width: 980px) {
