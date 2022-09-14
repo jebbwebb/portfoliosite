@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
    <link href="style.css" rel="stylesheet" />
    <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,7 +16,7 @@
 
     <img class="logo" src="images/logo.png">
     <ul class="nav-container">
-      <li class="nav-underline"><a href=" " class="nav-underline">HOME</a></li>
+      <li class="nav-underline"><a href=" #home" class="nav-underline">HOME</a></li>
       <li ><a href="  "class="nav-underline">ABOUT</a></li>
       <li ><a href=" "class="nav-underline">PROJECTS</a></li>
       <li><a href=" "class="nav-underline">CONTACT</a></li>
@@ -44,7 +45,7 @@
   </section>
  
     <!--- Landing Section --->
-    <section class="landing-container">
+    <section class="landing-container" id="home">
         <h1>Hello, </h1>
         <h1 id="hub-animate-1">I'm <span>Justin Webb</span></h1>
         <h1 id="hub-animate-2">I'm a <span>Frontend</span> Web Developer
@@ -56,16 +57,16 @@
         <img class="logo-3" src="images/jslogo.png">
         <img class="logo-4" src="images/reactlogo.png">
       </div>
-      <a href="images/resume.pdf" target="  _blank  "><button class="btn-animate" >Download My CV</button></a>
+      <a href="images/resume.pdf" target="  _blank  "><button class="btn-animate" id="resume-button" >Download My CV</button></a>
     </section>
     <section class="about-section">
       <h2 id="about-text" class="about-animate">
         ABOUT
     </h2>
-    <div  class="about-container about-container-animate">
+    <div id="about-container"  class="about-container about-container-animate">
       <img src="images/aboutmelogo.png" id="from-left" class="about-profile-animate from-animate">
-      <div class="paragraph-column about-paragraph-animate" >
-      <p class="about-paragraph from-animate" id="from-right">Hello! My Name is Justin Webb and I am driven Web Developer from Chicago,IL. I love learning about the newest technologies and thinking of ways to implement them to their fullest potential</p>
+      <div  class="paragraph-column about-paragraph-animate" >
+      <p id="about-paragraph" class="about-paragraph from-animate" id="from-right">Hello! My Name is Justin Webb and I am driven Web Developer from Chicago,IL. I love learning about the newest technologies and thinking of ways to implement them to their fullest potential</p>
       <p class="other-tech from-animate" id="from-under">Other technologies I am interested in:</p>
       <div class="tech-container from-animate" id="from-under">
         <p class="tech-text"><span>◇</span>C#/.Net</p>
